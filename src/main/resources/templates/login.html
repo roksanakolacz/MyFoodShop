@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Log in</title>
+  <style>
+    body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #80c986e4;
+            color: #f9f5f5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+
+         .title {
+            text-decoration: none;
+            color: #f9f7f7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    .login-element{
+      margin-top: 10px;
+    }
+
+    .button{
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #457d47;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+
+
+    button[type="submit"] {
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #457d47;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .register{
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <a th:href="@{/home}" class="title">MyFoodStore</a>
+
+</header>
+<h2>Log in</h2>
+<form action="/login" method="post">
+  <div class="login-element">
+    <label for="username">User name</label>
+    <input type="text" id="username" name="username" required />
+  </div>
+  <div class="login-element">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required />
+  </div>
+  <button type="submit">Log in</button>
+</form>
+<div class="register">
+<span>You don't have an account?</span>
+<a class="button" th:href="@{/register}">Sigh up</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <meta charset="UTF-8">
+  <title>MyShop</title>
+  <style>
+
+       body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #80c986e4;
+            color: #f9f5f5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+         .title {
+            text-decoration: none;
+            color: #f9f7f7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .cart-icon {
+            display: flex;
+            align-items: center;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+
+        .cart-icon i {
+            margin-right: 5px;
+        }
+
+        .main-content {
+            margin: 20px;
+            justify-content: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+        button.add-btn {
+            background-color: #457d47;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button.add-btn:hover {
+            background-color: #45a049;
+        }
+
+        .summary {
+            margin-top: 20px;
+        }
+
+        .summary p {
+            margin-bottom: 10px;
+        }
+
+        .finalize-order {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+  <a th:href="@{/home}" class="title">MyFoodStore</a>
+  <a th:href="@{/order/cart}">
+    <div class="cart-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <span th:text="${@cart.counter}"></span>
+    </div>
+  </a>
+</header>
+
+<div class="main-content">
+
+  <table>
+    <thead>
+    <tr>
+      <th>No.</th>
+      <th></th>
+      <th>Name</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="cartItem, cartItemStat : ${@cart.cartItems}">
+      <td th:text="${cartItemStat.count}"></td>
+      <td>
+        <img th:src="@{${cartItem.product.imgUrl}}">
+      </td>
+      <td th:text="${cartItem.product.name}"></td>
+      <td th:text="${cartItem.counter}"></td>
+      <td th:text="${cartItem.price}"></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="summary">
+    <p><span>To pay: </span><span th:text="${@cart.sum}"></span> PLN</p>
+  </div>
+
+  <div class="summary">
+    <form th:action="@{/order/saveOrder}" method="post">
+      <label>Name</label>
+      <input type="text" name="firstName" required>
+      <label>Surname</label>
+      <input type="text" name="lastName" required>
+      <label>Address</label>
+      <input type="text" name="address" required>
+      <label>Postal code</label>
+      <input type="text" name="postCode" required>
+      <label>City</label>
+      <input type="text" name="city" required>
+      <div class="finalize-order">
+        <button type="submit" class="add-btn">Finalize order</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

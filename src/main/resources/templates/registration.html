@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <title>Registration</title>
+  <style>
+   body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #80c986e4;
+            color: #f9f5f5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+         .title {
+            text-decoration: none;
+            color: #f9f7f7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #457d47;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .login-element{
+      margin-top: 10px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .error-message {
+      margin-top: 10px;
+      background-color: #ffffff;
+      color: #03cc00;
+      padding: 10px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <a th:href="@{/home}" class="title">MyFoodStore</a>
+
+</header>
+<h2>Registration</h2>
+<form action="/register" method="post">
+  <div class="login-element">
+    <label for="username">User name:</label>
+    <input type="text" id="username" name="username" required />
+  </div>
+  <div class="login-element">
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="password" required />
+  </div>
+  <div class="login-element">
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+  <button type="submit">Register</button>
+</form>
+
+<!-- Wyświetlanie komunikatu o błędzie -->
+<div th:if="${error}" class="error-message">
+  <span th:text="${error}"></span>
+</div>
+
+<div th:if="${errorEmail}" class="error-message">
+  <span th:text="${errorEmail}"></span>
+</div>
+
+<div th:if="${errorUsername}" class="error-message">
+  <span th:text="${errorUsername}"></span>
+</div>
+
+</body>
+</html>

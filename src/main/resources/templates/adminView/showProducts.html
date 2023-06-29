@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <meta charset="UTF-8">
+
+
+  <style>
+       body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #80c986e4;
+            color: #f9f5f5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+         .title {
+            text-decoration: none;
+            color: #f9f7f7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        form {
+            margin-bottom: 20px;
+            display: flex;
+            
+        }
+
+        .search-form {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+     
+
+        .search-form input[type="text"],
+        .search-form select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        
+
+        .search-form select {
+            max-width: 150px;
+        }
+
+        .search-buttons button {
+            padding: 8px 12px;
+            background-color: #457d47;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .search-buttons button:not(:last-child) {
+            margin-right: 5px;
+        }
+
+        .search-buttons button:hover {
+            background-color: #45a049;
+        }
+
+        input[type="text"],
+        select {
+            padding: 5px;
+            margin-right: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .btn-info {
+            background-color: #2196f3;
+        }
+
+        .btn-info:hover {
+            background-color: #1976d2;
+        }
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .mbtn {
+            margin-right: 5px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #457d47;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+
+        .button-sort {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #9ce37d;
+            color: #fff;
+            text-decoration: none;
+            font-size: xx-small;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button-sort:hover {
+            background-color: #45a049;
+        }
+
+
+        .button-edit {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #9ce37d;
+            color: #fff;
+            text-decoration: none;
+            font-size: small;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button-edit:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <a th:href="@{/home}" class="title">MyFoodStore</a>
+
+</header>
+
+<form th:action="@{/search}" method="get" class="search-form">
+  <input type="text" name="keyword" th:value="${keyword}" placeholder="Find by name" size="50">
+  <div style="display: flex;" class="search-buttons">
+    <button type="submit" class="btn btn-info">Search</button>
+    <button type="submit" class="btn btn-info">Reset</button>
+  </div>
+</form>
+
+<form th:action="@{/searchByCategory}" method="get" class="search-form">
+  <select name="chosenCategory">
+    <option value="ALL">ALL</option>
+    <option th:each="productCat : ${T(com.myprojects.FoodStore.model.ProductCategory).values()}"
+            th:value="${productCat}" th:text="${productCat}"></option>
+  </select>
+  <div class="search-buttons">
+  <button type="submit" class="btn btn-info">Search</button>
+  </div>
+</form>
+
+<div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+  <table cellspacing="0">
+    <tr>
+      <th style="width: 30px;">No.</th>
+      <th style="width: 50px;"></th>
+      <th>
+        <span>Name</span>
+        <a class="button-sort" href="?sort=name">-></a>
+      </th>
+      <th>
+        <span>Category</span>
+        <a class="button-sort" href="?sort=category">-></a>
+      </th>
+      <th>
+        <span>Quantity</span>
+        <a class="button-sort" href="?sort=quantity">-></a>
+      </th>
+      <th>
+        <span>Price</span>
+        <a class="button-sort" href="?sort=price">-></a>
+      </th>
+      <th style="width: 30px;"></th>
+      <th style="width: 30px;"></th>
+    </tr>
+    <tr th:each="product : ${products}">
+      <td>1</td>
+      <td>
+        <img th:src="@{${product.imgUrl}}">
+      </td>
+      <td th:text="${product.name}"></td>
+      <td th:text="${product.productCategory}"></td>
+      <td th:text="${product.quantity}"></td>
+      <td th:text="${product.price}"></td>
+      <td>
+        <a class="button-edit" th:href="@{'/items/' + ${product.id}}">Edit</a>
+      </td>
+      <td>
+        <a class="button-edit" th:href="@{'/items/' + ${product.id}}">X</a>
+      </td>
+    </tr>
+  </table>
+  <a class="button" th:href="@{/adminPage}">Add new product</a>
+</div>
+
+</body>
+</html>
