@@ -69,9 +69,9 @@ public class OrderService {
         return orderRepository.getOrderHistoryForUser(userId);
     }
 
-    public List<OrderedItem> getOrderedItems(Integer orderId){
+    public List<OrderedItem> getOrderedItems(Long orderId){
 
-        return orderItemRepository.getOrderedItems(orderId);
+        return orderItemRepository.getOrderedItemsForOrder(orderId);
 
     }
 

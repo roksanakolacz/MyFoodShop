@@ -1,7 +1,5 @@
 package com.myprojects.FoodStore;
 
-import com.myprojects.FoodStore.Cart;
-import com.myprojects.FoodStore.CartItem;
 import com.myprojects.FoodStore.model.Product;
 import com.myprojects.FoodStore.model.ProductCategory;
 import org.junit.jupiter.api.Assertions;
@@ -10,12 +8,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
-public class CartTest {
+public class CartTests {
 
     private Cart cart;
     private List<CartItem> cartItems;
@@ -59,22 +54,11 @@ public class CartTest {
 
         Assertions.assertEquals(expectedSum, cart.getSum(), 0.01);
         Assertions.assertEquals(expectedCounter, cart.getCounter());
-    }
 
-/*
-    @Test
-    public void getCartItemByProduct_existingProduct_True(){
-        Product product = new Product("Długopis", ProductCategory.SWEETS, 10, 10,"xyz");
-        CartItem cartItem = new CartItem(product);
-
-        Optional<CartItem> result = cart.getCartItemByProduct(product);
-
-        Assertions.assertTrue(result.isPresent());
-        Assertions.assertEquals(cartItem.getProduct().getName(), result.get().getProduct().getName());
     }
 
 
- */
+
 
 
 

@@ -1,7 +1,6 @@
 package com.myprojects.FoodStore.service;
 
 import com.myprojects.FoodStore.PasswordValidator;
-import com.myprojects.FoodStore.model.Product;
 import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +16,13 @@ public class UserService {
     @Autowired
     private PasswordValidator passwordValidator;
 
-    public void registerUser(User user){
-
+    public void registerUser(User user) {
+        if (user == null) {
+            throw new NullPointerException("User cannot be null");
+        }
+        if (user.getUsername() == null || user.getPassword() == null || user.getEmail() == null) {
+            throw new NullPointerException("All arguments have to be provided");
+        }
         userRepository.save(user);
     }
 
@@ -28,40 +32,34 @@ public class UserService {
     }
 
 
-    public User getByUserId(Integer userId){
-        return userRepository.findById(userId).orElseThrow(() -> new IllegalArgumentException("Invalid user ID"));
-    }
     public boolean isPasswordValid(String password){
+
         return passwordValidator.isPasswordValid(password);
     }
 
     public boolean existEmail(String email){
         return getAllUsers().stream()
-                .map(user->user.getEmail())
-                .filter(mail->mail.equals(email))
-                .findAny()
-                .isPresent();
+                .map(User::getEmail)
+                .anyMatch(mail->mail.equals(email));
     }
 
     public boolean existUsername(String username){
         return getAllUsers().stream()
-                .map(user->user.getUsername())
-                .filter(name->name.equalsIgnoreCase(username))
-                .findAny()
-                .isPresent();
+                .map(User::getUsername)
+                .anyMatch(name->name.equalsIgnoreCase(username));
     }
 
 
     public boolean isPasswordCorrect(String username, String password){
-        if (findByUserName(username)==null){
+        if (findUserByUserName(username)==null){
             return false;
         }
-        return userRepository.findByUserName(username).getPassword().equals(password);
+        return userRepository.findUserByUsername(username).getPassword().equals(password);
     }
 
-    public User findByUserName(String username){
+    public User findUserByUserName(String username){
 
-        return userRepository.findByUserName(username);
+        return userRepository.findUserByUsername(username);
     }
 
 }

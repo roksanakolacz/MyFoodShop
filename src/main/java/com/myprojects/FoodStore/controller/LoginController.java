@@ -27,7 +27,7 @@ public class LoginController {
     @PostMapping("/login")
     public String processLogin(String username, String password, HttpSession httpSession) {
         if (userService.isPasswordCorrect(username, password)) {
-            User loggedInUser = userService.findByUserName(username);
+            User loggedInUser = userService.findUserByUserName(username);
             LoginSession session = new LoginSession(loggedInUser.getUserId());
             httpSession.setAttribute("userId", session.getUserId());
             return "redirect:/home";

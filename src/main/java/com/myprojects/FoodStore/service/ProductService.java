@@ -48,11 +48,11 @@ public class ProductService {
     }
 
     public List<Product> getByName(String keyword){
-        return productRepository.findByKeyword(keyword);
+        return productRepository.findProductByKeyword(keyword);
     }
 
     public List<Product> getByCategory(String chosenCategory){
-        return productRepository.findByCategory(ProductCategory.valueOf(chosenCategory).getValue());
+        return productRepository.findProductsByCategory(ProductCategory.valueOf(chosenCategory).getValue());
     }
 
     public Product getById(Long id){

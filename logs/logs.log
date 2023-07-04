@@ -1,0 +1,234 @@
+2023-06-30 14:38:02 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 33508 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-06-30 14:38:02 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 14:38:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 14:38:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2023-06-30 14:38:04 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-30 14:38:04 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:38:04 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2023-06-30 14:38:04 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-30 14:38:04 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-30 14:38:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1377 ms
+2023-06-30 14:38:04 INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-30 14:38:04 INFO  c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@637791d
+2023-06-30 14:38:04 INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-30 14:38:04 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 14:38:04 INFO  o.h.Version:44 - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-30 14:38:04 INFO  SQL dialect:66 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-06-30 14:38:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 14:38:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:38:06 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:38:06 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 14:38:06 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 3.995 seconds (process running for 4.526)
+2023-06-30 14:38:13 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 14:38:13 INFO  o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-30 14:38:13 INFO  o.s.w.s.DispatcherServlet:554 - Completed initialization in 1 ms
+2023-06-30 14:38:15 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:16 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:16 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:17 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:17 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:17 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:18 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:38:18 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:39:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:39:29 INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-30 14:39:29 INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2023-06-30 14:41:12 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 32412 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-06-30 14:41:12 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 14:41:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 14:41:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2023-06-30 14:41:14 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-30 14:41:14 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:41:14 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2023-06-30 14:41:14 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-30 14:41:14 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-30 14:41:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1363 ms
+2023-06-30 14:41:14 INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-30 14:41:14 INFO  c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@637791d
+2023-06-30 14:41:14 INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-30 14:41:14 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 14:41:14 INFO  o.h.Version:44 - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-30 14:41:14 INFO  SQL dialect:66 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-06-30 14:41:15 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 14:41:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:41:16 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:41:16 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 14:41:16 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 3.918 seconds (process running for 4.399)
+2023-06-30 14:42:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:42:34 INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-30 14:42:34 INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2023-06-30 14:42:37 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 23308 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-06-30 14:42:37 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 14:42:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 14:42:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+2023-06-30 14:42:38 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-30 14:42:38 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:42:38 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2023-06-30 14:42:38 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-30 14:42:38 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-30 14:42:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1397 ms
+2023-06-30 14:42:38 INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-30 14:42:38 INFO  c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ad8717d
+2023-06-30 14:42:38 INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-30 14:42:38 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 14:42:38 INFO  o.h.Version:44 - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-30 14:42:39 INFO  SQL dialect:66 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-06-30 14:42:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 14:42:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:42:40 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 14:42:40 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 14:42:40 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 3.972 seconds (process running for 4.485)
+2023-06-30 14:42:47 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 14:42:47 INFO  o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2023-06-30 14:42:47 INFO  o.s.w.s.DispatcherServlet:554 - Completed initialization in 1 ms
+2023-06-30 14:42:48 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:42:49 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:50:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 14:50:08 INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-30 14:50:08 INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2023-06-30 14:55:56 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 17220 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-06-30 14:55:56 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-06-30 14:56:00 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.038 seconds (process running for 4.543)
+2023-06-30 14:56:04 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:05 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:05 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:06 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:20 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:21 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:23 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:36 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:39 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:39 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:39 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:39 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-06-30 14:56:40 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-07-02 12:26:34 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 15864 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 12:26:34 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 12:26:37 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 3.171 seconds (process running for 4.31)
+2023-07-02 12:28:18 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 10172 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 12:28:18 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 12:28:21 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.905 seconds (process running for 4.017)
+2023-07-02 13:36:00 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 29604 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:36:00 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:36:03 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.868 seconds (process running for 3.963)
+2023-07-02 13:37:51 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 1908 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:37:51 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:37:54 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.818 seconds (process running for 3.829)
+2023-07-02 13:38:06 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 18476 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:38:06 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:38:09 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.959 seconds (process running for 4.055)
+2023-07-02 13:52:25 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 8972 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:52:25 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:52:27 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.859 seconds (process running for 3.967)
+2023-07-02 13:52:53 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 1900 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:52:53 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:52:56 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.842 seconds (process running for 3.903)
+2023-07-02 13:55:18 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 32868 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:55:18 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:55:21 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 3.038 seconds (process running for 4.105)
+2023-07-02 13:58:46 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 32272 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 13:58:46 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 13:58:49 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 2.989 seconds (process running for 4.056)
+2023-07-02 14:03:52 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 31964 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:03:52 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:03:54 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.872 seconds (process running for 4.024)
+2023-07-02 14:05:22 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 14904 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:05:22 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:05:25 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.917 seconds (process running for 4.046)
+2023-07-02 14:29:59 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 33208 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:29:59 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:30:02 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.85 seconds (process running for 4.055)
+2023-07-02 14:31:06 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 23532 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:31:06 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:31:08 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.811 seconds (process running for 3.878)
+2023-07-02 14:34:49 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 11768 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:34:49 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:34:51 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.773 seconds (process running for 3.848)
+2023-07-02 14:36:42 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 12436 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:36:42 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:36:44 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.874 seconds (process running for 3.969)
+2023-07-02 14:39:28 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 29836 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:39:28 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:39:30 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.915 seconds (process running for 3.948)
+2023-07-02 14:54:40 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 936 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 14:54:40 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 14:54:43 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.846 seconds (process running for 3.901)
+2023-07-02 15:02:49 INFO  c.m.F.OrderItemRepositoryTest:51 - Starting OrderItemRepositoryTest using Java 17.0.6 with PID 15804 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-02 15:02:49 INFO  c.m.F.OrderItemRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-02 15:02:52 INFO  c.m.F.OrderItemRepositoryTest:57 - Started OrderItemRepositoryTest in 2.784 seconds (process running for 3.827)
+2023-07-03 08:21:05 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 21404 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 08:21:05 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 08:21:09 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.529 seconds (process running for 4.817)
+2023-07-03 08:25:58 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 30280 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 08:25:58 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 08:26:01 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.129 seconds (process running for 4.281)
+2023-07-03 08:27:42 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 32112 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 08:27:42 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 08:27:44 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.069 seconds (process running for 4.242)
+2023-07-03 08:35:37 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 6784 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 08:35:37 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 08:35:40 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 2.991 seconds (process running for 4.049)
+2023-07-03 08:46:27 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 13632 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 08:46:27 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 08:46:30 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.239 seconds (process running for 4.368)
+2023-07-03 09:01:53 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 2788 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 09:01:53 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 09:01:56 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 3.28 seconds (process running for 4.432)
+2023-07-03 09:10:28 INFO  c.m.F.OrderRepositoryTest:51 - Starting OrderRepositoryTest using Java 17.0.6 with PID 31244 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 09:10:28 INFO  c.m.F.OrderRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 09:10:31 INFO  c.m.F.OrderRepositoryTest:57 - Started OrderRepositoryTest in 3.169 seconds (process running for 4.223)
+2023-07-03 09:53:27 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 32344 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 09:53:27 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 09:53:31 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.385 seconds (process running for 4.563)
+2023-07-03 09:54:46 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 20700 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 09:54:46 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 09:54:49 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.16 seconds (process running for 4.359)
+2023-07-03 09:58:37 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-07-03 09:58:37 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-07-03 09:59:10 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-07-03 09:59:12 INFO  c.m.F.Cart:61 - Produkt dodany do koszyka
+2023-07-03 10:04:42 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 15536 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 10:04:42 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 10:04:45 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.213 seconds (process running for 4.382)
+2023-07-03 10:09:52 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 31952 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 10:09:52 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 10:09:55 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.202 seconds (process running for 4.427)
+2023-07-03 10:10:30 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 4520 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 10:10:30 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 10:10:33 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.127 seconds (process running for 4.268)
+2023-07-03 11:36:42 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 20932 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:36:42 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:36:45 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.428 seconds (process running for 4.711)
+2023-07-03 11:37:34 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 13908 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:37:34 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:37:37 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.223 seconds (process running for 4.372)
+2023-07-03 11:38:03 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 25016 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:38:03 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:38:06 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.172 seconds (process running for 4.328)
+2023-07-03 11:40:34 INFO  c.m.F.ProductRepositoryTest:51 - Starting ProductRepositoryTest using Java 17.0.6 with PID 33092 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:40:34 INFO  c.m.F.ProductRepositoryTest:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:40:37 INFO  c.m.F.ProductRepositoryTest:57 - Started ProductRepositoryTest in 3.308 seconds (process running for 4.507)
+2023-07-03 11:51:26 INFO  c.m.F.OrderRepositoryTests:51 - Starting OrderRepositoryTests using Java 17.0.6 with PID 30888 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:51:26 INFO  c.m.F.OrderRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:51:29 INFO  c.m.F.OrderRepositoryTests:57 - Started OrderRepositoryTests in 2.996 seconds (process running for 4.224)
+2023-07-03 11:59:46 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 29992 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 11:59:46 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 11:59:50 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.272 seconds (process running for 5.722)
+2023-07-03 12:01:00 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 17660 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:01:00 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:01:04 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.264 seconds (process running for 5.742)
+2023-07-03 12:01:23 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 14356 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:01:23 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:01:27 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.266 seconds (process running for 5.736)
+2023-07-03 12:05:21 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 32204 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:05:21 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:05:25 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.206 seconds (process running for 5.612)
+2023-07-03 12:12:29 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 30564 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:12:29 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:12:33 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.798 seconds (process running for 6.524)
+2023-07-03 12:14:13 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 22192 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:14:13 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:14:18 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 5.299 seconds (process running for 7.133)
+2023-07-03 12:14:36 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 14828 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-03 12:14:36 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-03 12:14:41 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.735 seconds (process running for 6.499)

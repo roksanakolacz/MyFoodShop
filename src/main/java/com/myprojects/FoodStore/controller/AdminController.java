@@ -25,78 +25,64 @@ public class AdminController {
 
 
     @GetMapping("/adminPage")
-    public String adminPage(){
+    public String adminPage() {
         return "adminView/addItem";
     }
 
-
     @PostMapping("/adminPage")
-    public String addProduct(Product product){
+    public String addProduct(Product product) {
         productRepository.save(product);
         return "adminView/addItem";
     }
 
-
-
-
-
-    @DeleteMapping("/items/{itemId}")
-    public String removeItem(@PathVariable("itemId") Long itemId){
+    @GetMapping("/items/{itemId}/remove")
+    public String removeItem(@PathVariable("itemId") Long itemId) {
         try {
             productRepository.deleteById(itemId);
         } catch (Exception e) {
-
             e.printStackTrace();
         }
         return "redirect:/showproducts";
     }
 
-
-    @PatchMapping("/items/{itemId}")
-    public String editProduct(@PathVariable("itemId") Long itemId, Model model){
+    @GetMapping("/items/{itemId}/edit")
+    public String showEditProductForm(@PathVariable("itemId") Long itemId, Model model) {
         Product product = productService.getById(itemId);
         model.addAttribute("product", product);
         return "adminView/editItem";
     }
 
-    @PatchMapping("/items/{itemId}")
-    public String editProduct(@PathVariable Long itemId, @ModelAttribute("product") Product product, Model model) {
-
+    @PostMapping("/items/{itemId}/edit")
+    public String editProduct(@PathVariable("itemId") Long itemId, @ModelAttribute("product") Product product, Model model) {
         productService.editProduct(itemId, product);
-
         List<Product> products = productService.getAllProducts();
         model.addAttribute("products", products);
         return "redirect:/items";
     }
 
-
-    @RequestMapping(path = {"/","/search"})
+    @RequestMapping(path = {"/", "/search"})
     public String searchByName(Model model, String keyword) {
-        if(keyword!=null) {
+        if (keyword != null) {
             List<Product> products = productService.getByName(keyword);
             model.addAttribute("products", products);
-        }else {
+        } else {
             List<Product> products = productService.getAllProducts();
-            model.addAttribute("products", products);}
+            model.addAttribute("products", products);
+        }
         return "adminView/showProducts";
     }
 
     @RequestMapping(path = {"/", "/searchByCategory"})
-        public String searchByCategory(Model model, String chosenCategory){
-
-        if(!chosenCategory.equalsIgnoreCase("ALL")) {
-
-           List<Product> products = productService.getByCategory(chosenCategory);
-           model.addAttribute("products", products);}
-        else {
+    public String searchByCategory(Model model, String chosenCategory) {
+        if (!chosenCategory.equalsIgnoreCase("ALL")) {
+            List<Product> products = productService.getByCategory(chosenCategory);
+            model.addAttribute("products", products);
+        } else {
             List<Product> products = productService.getAllProducts();
-            model.addAttribute("products", products);}
-
-            return "adminView/showProducts";
+            model.addAttribute("products", products);
         }
-
-
-
+        return "adminView/showProducts";
+    }
 
     @GetMapping("/items")
     public String getProducts(Model model, @RequestParam(defaultValue = "name") String sort) {

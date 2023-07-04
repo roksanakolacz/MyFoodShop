@@ -1,10 +1,7 @@
 package com.myprojects.FoodStore.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -14,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @Component
 @Entity
+@Builder
 @Table(name="users")
 @NoArgsConstructor
 public class User {
@@ -30,6 +28,9 @@ public class User {
     private List<Order> orderList;
 
 
-
-
+    public User(String username, String password, String email) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }
 }

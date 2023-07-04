@@ -105,7 +105,7 @@ public class OrderController {
 
 
     @GetMapping("/showOrderedProducts/{orderId}")
-    public String showOrderedProducts(Model model, @PathVariable("orderId") Integer orderId, HttpSession session) {
+    public String showOrderedProducts(Model model, @PathVariable("orderId") Long orderId, HttpSession session) {
         Integer userId = (Integer) session.getAttribute("userId");
         List<OrderedItem> orderedProducts = orderService.getOrderedItems(orderId);
         model.addAttribute("orderedProducts", orderedProducts);
