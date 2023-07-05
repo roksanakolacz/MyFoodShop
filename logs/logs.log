@@ -232,3 +232,227 @@
 2023-07-03 12:14:36 INFO  c.m.F.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 14828 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
 2023-07-03 12:14:36 INFO  c.m.F.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
 2023-07-03 12:14:41 INFO  c.m.F.UserRepositoryTests:57 - Started UserRepositoryTests in 4.735 seconds (process running for 6.499)
+2023-07-04 13:01:47 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 25028 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:01:47 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:01:52 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.701 seconds (process running for 5.272)
+2023-07-04 13:07:55 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 15000 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:07:55 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:07:59 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.333 seconds (process running for 4.847)
+2023-07-04 13:09:44 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 17032 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:09:44 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:09:48 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.456 seconds (process running for 4.957)
+2023-07-04 13:48:19 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9844 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:48:19 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:48:23 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.818 seconds (process running for 5.423)
+2023-07-04 13:50:25 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 15536 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:50:25 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:50:29 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.448 seconds (process running for 4.976)
+2023-07-04 13:50:58 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30932 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:50:58 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:51:02 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.355 seconds (process running for 4.848)
+2023-07-04 13:52:01 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 27284 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:52:01 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:52:05 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.295 seconds (process running for 4.787)
+2023-07-04 13:53:05 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 26884 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:53:05 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:53:09 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.465 seconds (process running for 4.974)
+2023-07-04 13:54:14 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 18108 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:54:14 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:54:18 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.473 seconds (process running for 4.975)
+2023-07-04 13:54:24 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 10448 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:54:24 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:54:28 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.975 seconds (process running for 5.47)
+2023-07-04 13:58:46 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 18696 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 13:58:46 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 13:58:50 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.573 seconds (process running for 5.067)
+2023-07-04 14:00:49 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 12088 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:00:49 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:00:54 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.67 seconds (process running for 5.16)
+2023-07-04 14:04:23 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 29128 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:04:23 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:04:27 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.734 seconds (process running for 5.295)
+2023-07-04 14:05:07 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 33640 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:05:07 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:05:11 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.519 seconds (process running for 5.057)
+2023-07-04 14:08:11 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 19316 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:08:11 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:08:16 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.974 seconds (process running for 5.517)
+2023-07-04 14:20:08 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 17172 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:20:08 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:20:12 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.217 seconds (process running for 4.677)
+2023-07-04 14:21:07 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9856 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:21:07 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:21:11 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.308 seconds (process running for 4.803)
+2023-07-04 14:22:07 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 16688 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:22:07 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:22:11 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.629 seconds (process running for 5.09)
+2023-07-04 14:34:07 INFO  c.m.F.Cart:51 - Password validated successfully: IamMark!123
+2023-07-04 14:34:07 INFO  c.m.F.Cart:69 - Email mark@mark.com can be used by new user - does not exist in db
+2023-07-04 14:34:07 INFO  c.m.F.Cart:84 - Username Mark can be used by new user - does not exist in db
+2023-07-04 14:34:07 INFO  c.m.F.Cart:34 - User successfully registered with name: Mark
+2023-07-04 14:34:14 INFO  c.m.F.Cart:97 - Password IamMark!123 used for log-in is correct
+2023-07-04 14:34:24 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:34:25 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:34:28 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:34:30 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:17 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:20 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:20 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:21 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:36 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:40 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:36:41 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 14:48:02 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 19004 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:48:02 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:48:06 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.468 seconds (process running for 5.413)
+2023-07-04 14:49:52 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 25576 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:49:52 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:49:57 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.674 seconds (process running for 5.213)
+2023-07-04 14:52:59 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 24968 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:52:59 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:53:03 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.626 seconds (process running for 5.165)
+2023-07-04 14:53:36 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 14:58:17 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 18392 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 14:58:17 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 14:58:22 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.663 seconds (process running for 5.176)
+2023-07-04 14:58:35 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:00:50 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 17768 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:00:50 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:00:54 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.524 seconds (process running for 5.031)
+2023-07-04 15:01:15 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:02:09 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 1576 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:02:09 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:02:13 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.368 seconds (process running for 4.851)
+2023-07-04 15:02:29 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:06:24 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:08:46 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 7160 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:08:46 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:08:50 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.442 seconds (process running for 4.944)
+2023-07-04 15:10:25 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:12:32 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 20996 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:12:32 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:12:36 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.404 seconds (process running for 4.893)
+2023-07-04 15:13:02 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:13:47 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 27292 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:13:47 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:13:51 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.635 seconds (process running for 5.141)
+2023-07-04 15:14:18 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:16:31 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 20056 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:16:31 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:16:36 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.587 seconds (process running for 5.111)
+2023-07-04 15:16:52 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:18:32 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 16988 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:18:32 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:18:36 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.417 seconds (process running for 4.904)
+2023-07-04 15:18:48 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:21:18 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 4064 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:21:18 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:21:22 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.306 seconds (process running for 4.825)
+2023-07-04 15:21:46 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 33128 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:21:46 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:21:50 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.565 seconds (process running for 5.165)
+2023-07-04 15:22:46 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 15528 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:22:46 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:22:50 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.383 seconds (process running for 4.872)
+2023-07-04 15:23:01 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:23:27 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 21856 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:23:27 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:23:32 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.98 seconds (process running for 5.696)
+2023-07-04 15:23:50 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:24:22 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 28428 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:24:22 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:24:26 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.486 seconds (process running for 4.972)
+2023-07-04 15:24:38 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:24:45 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 15:39:03 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 4648 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 15:39:03 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:39:07 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.639 seconds (process running for 5.264)
+2023-07-04 21:20:51 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 33736 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 21:20:51 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 21:20:56 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.362 seconds (process running for 6.841)
+2023-07-04 21:27:04 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 6520 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 21:27:04 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 21:27:09 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.671 seconds (process running for 5.235)
+2023-07-04 21:28:13 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 6148 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 21:28:13 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 21:28:17 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.691 seconds (process running for 5.225)
+2023-07-04 21:28:36 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 18668 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-04 21:28:36 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 21:28:40 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.614 seconds (process running for 5.137)
+2023-07-04 21:31:42 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 21:32:59 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-04 21:33:07 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 21:33:08 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 21:33:22 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 21:33:25 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-04 21:33:25 INFO  c.m.F.Cart:62 - Produkt dodany do koszyka
+2023-07-05 08:35:28 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9092 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:35:28 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:35:33 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 6.032 seconds (process running for 6.677)
+2023-07-05 08:36:39 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 28276 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:36:39 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:36:43 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.722 seconds (process running for 5.274)
+2023-07-05 08:37:56 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 19852 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:37:56 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:38:00 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.942 seconds (process running for 5.482)
+2023-07-05 08:39:55 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 13184 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:39:55 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:39:59 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.955 seconds (process running for 5.525)
+2023-07-05 08:40:05 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 252
+2023-07-05 08:40:25 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 8400 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:40:25 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:40:29 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.925 seconds (process running for 5.488)
+2023-07-05 08:40:35 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 252
+2023-07-05 08:40:36 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 252
+2023-07-05 08:40:37 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 252
+2023-07-05 08:40:37 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 252
+2023-07-05 08:40:38 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 252
+2023-07-05 08:40:38 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 202
+2023-07-05 08:40:39 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 202
+2023-07-05 08:40:42 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 202
+2023-07-05 08:40:43 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 1
+2023-07-05 08:40:44 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 1
+2023-07-05 08:40:45 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 1
+2023-07-05 08:40:47 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 802
+2023-07-05 08:40:48 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 802
+2023-07-05 08:49:36 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 8144 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:49:36 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:49:40 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.914 seconds (process running for 5.464)
+2023-07-05 08:52:00 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 252
+2023-07-05 08:52:03 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 802
+2023-07-05 08:52:06 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 802
+2023-07-05 08:52:14 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 202
+2023-07-05 08:58:01 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 1
+2023-07-05 08:58:02 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 1
+2023-07-05 08:58:03 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 1
+2023-07-05 08:58:32 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 29160 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 08:58:32 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 08:58:36 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.653 seconds (process running for 5.165)
+2023-07-05 08:58:42 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 252
+2023-07-05 08:58:58 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-05 09:06:03 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 32952 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:06:03 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:06:07 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.619 seconds (process running for 5.12)
+2023-07-05 09:06:17 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-05 09:09:07 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30728 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:09:07 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:09:12 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.994 seconds (process running for 6.615)
+2023-07-05 09:09:32 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-05 09:10:36 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 13656 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:10:36 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:10:42 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.912 seconds (process running for 6.548)
+2023-07-05 09:10:52 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-05 09:11:01 INFO  c.m.F.Cart:123 - Admin privileges granted for user with id 302
+2023-07-05 09:11:06 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 252
+2023-07-05 09:11:06 INFO  c.m.F.Cart:132 - Admin privileges revoked for user with id 1
+2023-07-05 09:26:23 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 33764 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:26:23 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:26:27 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.689 seconds (process running for 5.694)
+2023-07-05 09:26:39 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct
+2023-07-05 09:32:12 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30656 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:32:12 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:32:16 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.627 seconds (process running for 5.111)
+2023-07-05 09:33:28 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 2660 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-05 09:33:28 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 09:33:32 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.028 seconds (process running for 4.57)
+2023-07-05 09:34:02 INFO  c.m.F.Cart:98 - Password Roksanusia7! used for log-in is correct

@@ -23,16 +23,15 @@ public class ProductService {
 
 
     public List<Product> getAllProductsSortedBy(String sortBy) {
-        // retrieve the list of employees from the repository
+
         List<Product> products =  (List<Product>)productRepository.findAll();
 
-        // sort the list based on the given parameter
         switch (sortBy) {
             case "name":
-                products.sort(Comparator.comparing(Product::getName));
+                products.sort(Comparator.comparing(Product::getName, String.CASE_INSENSITIVE_ORDER));
                 break;
             case "category":
-                products.sort(Comparator.comparing(Product::getProductCategory));
+                products.sort(Comparator.comparing(p -> p.getProductCategory().toString()));
                 break;
             case "quantity":
                 products.sort(Comparator.comparing(Product::getQuantity));

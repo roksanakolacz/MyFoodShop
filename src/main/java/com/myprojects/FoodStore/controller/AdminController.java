@@ -35,6 +35,13 @@ public class AdminController {
         return "adminView/addItem";
     }
 
+    @GetMapping("/items")
+    public String getProducts(Model model, @RequestParam(defaultValue = "name") String sort) {
+        List<Product> products = productService.getAllProductsSortedBy(sort);
+        model.addAttribute("products", products);
+        return "adminView/showProducts";
+    }
+
     @GetMapping("/items/{itemId}/remove")
     public String removeItem(@PathVariable("itemId") Long itemId) {
         try {
@@ -84,12 +91,6 @@ public class AdminController {
         return "adminView/showProducts";
     }
 
-    @GetMapping("/items")
-    public String getProducts(Model model, @RequestParam(defaultValue = "name") String sort) {
-        List<Product> products = productService.getAllProductsSortedBy(sort);
-        model.addAttribute("products", products);
-        return "adminView/showProducts";
-    }
 
 
 }

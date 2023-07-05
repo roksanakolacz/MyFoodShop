@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <title>All users in the shop</title>
+
+  <style>
+      body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #80c986e4;
+            color: #f9f5f5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+ .title {
+            text-decoration: none;
+            color: #f9f7f7;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .mbtn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        .mbtn:hover {
+            background-color: #45a049;
+        }
+
+        form {
+      max-width: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    </style>
+</head>
+
+<body>
+<header>
+  <a th:href="@{/home}" class="title">MyFoodStore</a>
+
+</header>
+<h2>Shop users</h2>
+<form>
+  <table>
+    <thead>
+    <tr>
+      <th>UserId</th>
+      <th>Username</th>
+      <th>Password</th>
+      <th>E-mail</th>
+      <th>Is Admin?</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${userList}">
+      <td th:text="${user.userId}"></td>
+      <td th:text="${user.username}"></td>
+      <td th:text="${user.password}"></td>
+      <td th:text="${user.email}"></td>
+      <td th:text="${user.isAdmin ? 'Admin' : 'User'}"></td>
+      <td>
+        <a class="mbtn"
+           th:href="@{${user.isAdmin} ? '/users/' + ${user.userId} + '/revokeAdmin' : '/users/' + ${user.userId} + '/admin'}">
+          <span th:text="${user.isAdmin} ? 'Revoke admin privileges' : 'Grant admin privileges'"></span>
+        </a>
+      </td>
+
+
+    </tr>
+    </tbody>
+  </table>
+
+
+    <a class="mbtn" th:href="@{/home}">Go to the shop</a>
+
+
+</form>
+</body>
+</html>

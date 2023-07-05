@@ -17,6 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.*;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
+import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.when;
 
@@ -71,6 +72,7 @@ import static org.mockito.Mockito.when;
         assertThatThrownBy(() -> userService.registerUser(user))
                 .isInstanceOf(NullPointerException.class)
                 .hasMessage("User cannot be null");
+
     }
 
     @Test
@@ -326,7 +328,7 @@ import static org.mockito.Mockito.when;
         User userFound = userService.findUserByUserName("johny");
 
         Assertions.assertEquals(user, userFound);
-        Assertions.assertTrue(!userFound.getUsername().isEmpty());
+        Assertions.assertFalse(userFound.getUsername().isEmpty());
 
     }
 
@@ -348,6 +350,7 @@ import static org.mockito.Mockito.when;
         User userFound = userService.findUserByUserName(null);
 
         assertNull(userFound);
+
     }
 
 

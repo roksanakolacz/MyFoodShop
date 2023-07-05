@@ -93,7 +93,7 @@
 <div class="main-content">
   <div class="summary">
     <h1>Edit product</h1>
-    <form th:object="${product}" method="patch">
+    <form th:object="${product}" th:action="@{/items/{itemId}/edit(itemId=${product.id})}" method="post">
       <label>Name</label>
       <input type="text" name="name" th:field="*{name}" required>
       <label>Category</label>

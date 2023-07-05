@@ -192,7 +192,7 @@
   <input type="text" name="keyword" th:value="${keyword}" placeholder="Find by name" size="50">
   <div style="display: flex;" class="search-buttons">
     <button type="submit" class="btn btn-info">Search</button>
-    <button type="submit" class="btn btn-info">Reset</button>
+    <button type="submit" class="btn btn-info">Reset search</button>
   </div>
 </form>
 
@@ -214,25 +214,25 @@
       <th style="width: 50px;"></th>
       <th>
         <span>Name</span>
-        <a class="button-sort" href="?sort=name">-></a>
+        <a class="button-sort" href="?sort=name">Sort ascending</a>
       </th>
       <th>
         <span>Category</span>
-        <a class="button-sort" href="?sort=category">-></a>
+        <a class="button-sort" href="?sort=category">Sort ascending</a>
       </th>
       <th>
         <span>Quantity</span>
-        <a class="button-sort" href="?sort=quantity">-></a>
+        <a class="button-sort" href="?sort=quantity">Sort ascending</a>
       </th>
       <th>
         <span>Price</span>
-        <a class="button-sort" href="?sort=price">-></a>
+        <a class="button-sort" href="?sort=price">Sort ascending</a>
       </th>
       <th style="width: 30px;"></th>
       <th style="width: 30px;"></th>
     </tr>
     <tr th:each="product : ${products}">
-      <td>1</td>
+      <td th:text="${product.id}"></td>
       <td>
         <img th:src="@{${product.imgUrl}}">
       </td>
@@ -241,10 +241,10 @@
       <td th:text="${product.quantity}"></td>
       <td th:text="${product.price}"></td>
       <td>
-        <a class="button-edit" th:href="@{'/items/' + ${product.id}}">Edit</a>
+        <a class="button-edit" th:href="@{'/items/' + ${product.id} + '/edit'}">Edit</a>
       </td>
       <td>
-        <a class="button-edit" th:href="@{'/items/' + ${product.id}}">X</a>
+        <a class="button-edit" th:href="@{'/items/' + ${product.id} + '/remove'}">X</a>
       </td>
     </tr>
   </table>

@@ -23,6 +23,8 @@ public class User {
     private String password;
     private String email;
 
+    private boolean isAdmin;
+
     @OneToMany
     @JoinColumn(name="userId")
     private List<Order> orderList;
@@ -32,5 +34,6 @@ public class User {
         this.username = username;
         this.password = password;
         this.email = email;
+        this.isAdmin = false;
     }
 }

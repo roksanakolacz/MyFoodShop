@@ -1,10 +1,14 @@
 package com.myprojects.FoodStore.controller;
 
 import com.myprojects.FoodStore.ItemOperation;
+import com.myprojects.FoodStore.LoginSession;
 import com.myprojects.FoodStore.model.Product;
+import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.repository.ProductRepository;
 import com.myprojects.FoodStore.service.CartService;
 import com.myprojects.FoodStore.service.ProductService;
+import com.myprojects.FoodStore.service.UserService;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,6 +30,9 @@ public class HomeController {
     @Autowired
     private CartService cartService;
 
+    @Autowired
+    private UserService userService;
+
     public HomeController(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
@@ -33,9 +40,19 @@ public class HomeController {
 
 
     @GetMapping("/home")
-    public String homePage(Model model){
+    public String homePage(Model model, HttpSession httpSession){
         List<Product> products= productService.getAllProducts();
         model.addAttribute("products", products);
+
+        Integer userId = (Integer) httpSession.getAttribute("userId");
+        if (userId != null) {
+            User user = userService.findUserByUserId(userId);
+            model.addAttribute("username", user.getUsername());
+            if (user.isAdmin()){
+                model.addAttribute("isAdmin", user.isAdmin());
+            }
+        }
+
         return "homePage";
     }
 

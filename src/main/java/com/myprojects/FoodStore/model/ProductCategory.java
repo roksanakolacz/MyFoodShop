@@ -26,10 +26,12 @@ public enum ProductCategory {
     }
 
     public static ProductCategory valueOf(int productCategory) {
+
         return (ProductCategory) map.get(productCategory);
     }
 
     public int getValue() {
+
         return value;
     }
 }

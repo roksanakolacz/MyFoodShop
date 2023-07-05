@@ -147,18 +147,33 @@
 <header>
     <a th:href="@{/home}" class="title">MyFoodStore</a>
 
+    <div th:if="${username != null}">
+        Hi, <span th:text="${username}"></span>
+    </div>
+
     <div style="display:flex;" class = "icons">
-        <a th:href="@{/login}">
+        <a th:if="${session.userId == null}" th:href="@{/login}">
           <div class="login-icon">
                <i class="fas fa-user"></i>
               </div>
         </a>
 
-        <a th:href="@{/register}">
+        <a th:if="${session.userId == null}" th:href="@{/register}">
             <div class="register-icon">
                 <i class="fas fa-user-plus"></i>
             </div>
         </a>
+
+
+
+        <a th:if="${isAdmin}" th:href="@{/adminPage}">
+            <div class="orders-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+        </a>
+
+
+
 
         <a th:if="${session.userId != null}" th:href="@{/order/orders}">
             <div class="orders-icon">
@@ -172,19 +187,31 @@
                  <span th:text="${@cart.counter}"></span>
             </div>
         </a>
+        <a th:if="${session.userId != null}" th:href="@{/log-out}" th:method="get" class="logout-icon">
+            <div class="login-icon">
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+        </a>
 
 
     </div>
+
+
+
 
 </header>
 
 <form th:action="@{/homesearch}" method="get" class="search-form">
-    <input class = "search-bar" type="text" name="keyword" th:value="${keyword}" placeholder="Find by name" size="50">
+    <input class="search-bar" type="text" name="keyword" th:value="${keyword}" placeholder="Find by name" size="50">
     <div class="search-buttons">
         <button type="submit" class="btn btn-info">Search</button>
-        <button type="reset" class="btn btn-info">Reset</button>
+        <button type="button" class="btn btn-info" onclick="window.location.href='/home'">Reset</button>
     </div>
 </form>
+
+
+
+
 
 <form th:action="@{/homesearchByCategory}" method="get" class="search-form">
     <select class = "search-bar" name="chosenCategory">

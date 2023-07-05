@@ -1,5 +1,6 @@
 package com.myprojects.FoodStore.controller;
 
+import org.springframework.ui.Model;
 import com.myprojects.FoodStore.LoginSession;
 import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.service.UserService;
@@ -25,7 +26,7 @@ public class LoginController {
     }
 
     @PostMapping("/login")
-    public String processLogin(String username, String password, HttpSession httpSession) {
+    public String processLogin(String username, String password, HttpSession httpSession, Model model) {
         if (userService.isPasswordCorrect(username, password)) {
             User loggedInUser = userService.findUserByUserName(username);
             LoginSession session = new LoginSession(loggedInUser.getUserId());
@@ -35,6 +36,13 @@ public class LoginController {
             return "redirect:/login?error";
         }
     }
+
+    @GetMapping("/log-out")
+    public String logOut(HttpSession httpSession) {
+        httpSession.invalidate();
+        return "redirect:/home";
+    }
+
 
 
 
