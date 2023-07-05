@@ -2,6 +2,7 @@ package com.myprojects.FoodStore.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,8 +16,9 @@ import java.util.Date;
 @Entity
 @NoArgsConstructor
 public class DiscountCode {
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codeId;
     private String code;
     private double discountPercentage;

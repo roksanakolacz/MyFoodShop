@@ -1,6 +1,7 @@
 package com.myprojects.FoodStore.controller;
 
 
+import com.myprojects.FoodStore.Cart;
 import com.myprojects.FoodStore.dto.CustomerDataDto;
 import com.myprojects.FoodStore.model.Order;
 import com.myprojects.FoodStore.model.OrderedItem;
@@ -22,6 +23,9 @@ import java.util.List;
 public class OrderController {
 
     private final CartService cartService;
+
+    @Autowired
+    private  Cart cart;
     private final DiscountCodeService discountCodeService;
     private final OrderService orderService;
 
@@ -36,9 +40,15 @@ public class OrderController {
     public String showCart(Model model) {
 
         String discountCodeErrorMessage = cartService.getDiscountCodeErrorMessage();
+        String discountCodeMessage = cartService.getDiscountCodeMessage();
+
 
         if (discountCodeErrorMessage != null) {
             model.addAttribute("discountCodeErrorMessage", discountCodeErrorMessage);
+        }
+
+        if (discountCodeMessage != null) {
+            model.addAttribute("discountCodeMessage", discountCodeMessage);
         }
 
         return "cartView";
@@ -48,7 +58,8 @@ public class OrderController {
 
     @GetMapping("/decrease/{itemId}")
     public String decreaseItem(@PathVariable("itemId") Long itemId){
-
+        cart.recalculatePriceAndCounter();
+        cartService.clearDiscountCode();
         cartService.itemOperation(itemId, ItemOperation.DECREASE);
         return "cartView";
     }
@@ -56,7 +67,8 @@ public class OrderController {
 
     @GetMapping("/increase/{itemId}")
     public String increaseItem(@PathVariable("itemId") Long itemId){
-
+        cart.recalculatePriceAndCounter();
+        cartService.clearDiscountCode();
         cartService.itemOperation(itemId, ItemOperation.INCREASE);
         return "cartView";
     }
@@ -64,6 +76,8 @@ public class OrderController {
 
     @GetMapping("/remove/{itemId}")
     public String removeItem(@PathVariable("itemId") Long itemId){
+        cart.recalculatePriceAndCounter();
+        cartService.clearDiscountCode();
         cartService.itemOperation(itemId, ItemOperation.REMOVE);
         return "cartView";
 
@@ -71,10 +85,8 @@ public class OrderController {
 
     @PostMapping("/applyDiscount")
     public String applyDiscount(@RequestParam("discountCode") String discountCode) {
-
-        cartService.clearError();
+        cartService.clearDiscountCode();
         cartService.applyDiscountCode(discountCode);
-
 
         return "redirect:/order/cart";
     }

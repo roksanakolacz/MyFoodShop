@@ -9,6 +9,8 @@ import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,14 +20,17 @@ public class CartService {
 
     private final ProductRepository productRepository;
 
-    private DiscountCodeService discountCodeService;
+    private final DiscountCodeService discountCodeService;
     private final Cart cart;
     private String discountCodeErrorMessage;
 
     private String discountCodeUsed;
 
+    public boolean isDiscountCodeUsed = false;
+    private String discountCodeMessage;
 
-    //wstrzyknięcie przez konstruktor
+
+
     @Autowired
     public CartService(ProductRepository productRepository, DiscountCodeService discountCodeService, Cart cart) {
         this.productRepository = productRepository;
@@ -62,19 +67,30 @@ public class CartService {
 
 
     public void applyDiscountCode(String code) {
-
-        if (discountCodeService.isDiscountCodeValid(code)&&cart.isDiscountCodeUsed()==false){
+        if (discountCodeService.isDiscountCodeValid(code) && !cart.isDiscountCodeUsed()) {
             DiscountCode discountCode = discountCodeService.getDiscountCode(code);
-            double discountAmount = cart.getSum() * discountCode.getDiscountPercentage() / 100;
+
+            double discountAmount = BigDecimal.valueOf(cart.getSum() * discountCode.getDiscountPercentage() / 100)
+                    .setScale(2, RoundingMode.HALF_UP)
+                    .doubleValue();
+
             cart.setSum(cart.getSum() - discountAmount);
             cart.setDiscountCodeUsed(true);
-            discountCodeUsed=code;
-        } else{
-            discountCodeErrorMessage="Wrong discount code";
+            discountCodeUsed = code;
+            isDiscountCodeUsed = true;
+            this.discountCodeMessage = "Discount code applied";
+        } else {
+            discountCodeErrorMessage = "Wrong discount code";
         }
     }
 
-    public void clearError(){
+
+    public void clearDiscountCode(){
         discountCodeErrorMessage="";
+        discountCodeMessage="";
+        discountCodeUsed = null;
+        isDiscountCodeUsed = false;
+        cart.recalculatePriceAndCounter();
+
     }
 }

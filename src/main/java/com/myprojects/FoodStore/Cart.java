@@ -35,9 +35,11 @@ public class Cart {
 
     public void recalculatePriceAndCounter(){
 
-        sum= Math.round(cartItems.stream()
-                .mapToDouble(CartItem::getPrice)
-                .sum() * 100.0) / 100.0;
+        sum = BigDecimal.valueOf(cartItems.stream()
+                        .mapToDouble(CartItem::getPrice)
+                        .sum())
+                        .setScale(2, RoundingMode.HALF_UP)
+                        .doubleValue();
 
 
         counter = cartItems.stream()

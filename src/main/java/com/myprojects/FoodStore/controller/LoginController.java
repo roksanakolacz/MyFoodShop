@@ -15,8 +15,7 @@ public class LoginController {
 
     @Autowired
     private UserService userService;
-    @Autowired
-    private User user;
+
 
 
     @GetMapping("/login")
@@ -33,7 +32,8 @@ public class LoginController {
             httpSession.setAttribute("userId", session.getUserId());
             return "redirect:/home";
         } else {
-            return "redirect:/login?error";
+            model.addAttribute("error", "Invalid username or password. Try again");
+            return "login";
         }
     }
 

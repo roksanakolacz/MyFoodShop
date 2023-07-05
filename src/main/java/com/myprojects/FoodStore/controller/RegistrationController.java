@@ -3,6 +3,7 @@ package com.myprojects.FoodStore.controller;
 import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,9 +38,12 @@ public class RegistrationController {
             return "registration";
         }
 
+        String hashedPassword = BCrypt.hashpw(user.getPassword(), BCrypt.gensalt());
+        user.setPassword(hashedPassword);
+
         userService.registerUser(user);
 
-        return "redirect:/home";
+        return "redirect:/login";
     }
 
 

@@ -103,7 +103,7 @@
     <td th:text="${order.address}"></td>
     <td th:text="${order.postCode}"></td>
     <td th:text="${order.city}"></td>
-    <td th:text="${order.created}"></td>
+    <td th:text="${order.formattedDate}"></td>
     <td th:text="${order.totalAmount}"></td>
     <td>
       <a class="mbtn" th:href="@{'/order/showOrderedProducts/' + ${order.orderId}}">Show products</a>

@@ -14,7 +14,9 @@ import com.myprojects.FoodStore.repository.order.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class OrderService {
@@ -66,7 +68,28 @@ public class OrderService {
     }
 
     public List<Order> getOrderHistoryForUser(Integer userId){
-        return orderRepository.getOrderHistoryForUser(userId);
+
+        List<Order> orders = orderRepository.getOrderHistoryForUser(userId);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        orders.forEach(order -> {
+            order.setFormattedDate(order.getCreated().format(formatter));
+            order.setTotalAmount(Math.round(order.getTotalAmount() * 100.0) / 100.0);
+        });
+
+        return orders;
+    }
+
+
+    public List<Order> getAllOrders() {
+        List<Order> orders = orderRepository.findAll();
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+        orders.forEach(order -> {
+            order.setFormattedDate(order.getCreated().format(formatter));
+            order.setTotalAmount(Math.round(order.getTotalAmount() * 100.0) / 100.0);
+        });
+
+        return orders;
     }
 
     public List<OrderedItem> getOrderedItems(Long orderId){

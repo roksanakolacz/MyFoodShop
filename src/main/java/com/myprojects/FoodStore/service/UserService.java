@@ -4,9 +4,12 @@ import com.myprojects.FoodStore.Cart;
 import com.myprojects.FoodStore.PasswordValidator;
 import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.repository.UserRepository;
+import jakarta.annotation.PostConstruct;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCrypt;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -90,14 +93,13 @@ public class UserService {
     }
 
 
-    public boolean isPasswordCorrect(String username, String password){
-        if (findUserByUserName(username)==null){
-            logger.warn("Password {} used for log-in is not correct", password);
-            return false;
+    public boolean isPasswordCorrect(String username, String password) {
+        User user = findUserByUserName(username);
+        if (user != null) {
+            String hashedPasswordFromDatabase = user.getPassword();
+            return BCrypt.checkpw(password, hashedPasswordFromDatabase);
         }
-        logger.info("Password {} used for log-in is correct", password);
-
-        return userRepository.findUserByUsername(username).getPassword().equals(password);
+        return false;
     }
 
     public User findUserByUserName(String username){

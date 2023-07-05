@@ -1,6 +1,5 @@
 package com.myprojects.FoodStore;
 
-import com.myprojects.FoodStore.model.User;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.annotation.Scope;
@@ -14,11 +13,8 @@ import org.springframework.stereotype.Component;
 public class LoginSession {
     private Integer userId;
 
-    public LoginSession(Integer userId)
-    {
+    public LoginSession(Integer userId) {
         this.userId = userId;
     }
-
-
 }
 

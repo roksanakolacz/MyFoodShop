@@ -151,6 +151,10 @@
         Hi, <span th:text="${username}"></span>
     </div>
 
+    <div th:if="${isAdmin}" style="font-weight: bold; color: red;">
+        ADMIN ACCOUNT
+    </div>
+
     <div style="display:flex;" class = "icons">
         <a th:if="${session.userId == null}" th:href="@{/login}">
           <div class="login-icon">
@@ -166,7 +170,7 @@
 
 
 
-        <a th:if="${isAdmin}" th:href="@{/adminPage}">
+        <a th:if="${isAdmin}" th:href="@{/items}">
             <div class="orders-icon">
                 <i class="fas fa-cog fa-spin"></i>
             </div>

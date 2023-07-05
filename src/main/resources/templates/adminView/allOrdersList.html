@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>All users in the shop</title>
+  <title>All orders</title>
 
   <style>
       body {
@@ -79,45 +77,52 @@
   <a th:href="@{/home}" class="title">MyFoodStore</a>
 
 </header>
-<h2>Shop users</h2>
+<h2>All orders</h2>
+
+
+<div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+  <div style="text-align: left;">
+    <a class="mbtn" th:href="@{/items}" style="display: inline-block;">Back</a>
+    <a class="mbtn" th:href="@{/home}" style="display: inline-block;">Go to the shop</a>
+  </div>
+</div>
+
+
 <form>
   <table>
     <thead>
     <tr>
-      <th>UserId</th>
-      <th>Username</th>
-      <th>Password</th>
-      <th>E-mail</th>
-      <th>Is Admin?</th>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Address</th>
+      <th>PostCode</th>
+      <th>City</th>
+      <th>Date</th>
+      <th>Discount code used</th>
+      <th>Total amount</th>
+      <th>User ID</th>
       <th></th>
     </tr>
     </thead>
     <tbody>
-    <tr th:each="user : ${userList}">
-      <td th:text="${user.userId}"></td>
-      <td th:text="${user.username}"></td>
-      <td th:text="${user.password}"></td>
-      <td th:text="${user.email}"></td>
-      <td th:text="${user.isAdmin ? 'Admin' : 'User'}"></td>
+    <tr th:each="order : ${orders}">
+      <td th:text="${order.orderId}"></td>
+      <td th:text="${order.firstName}"></td>
+      <td th:text="${order.lastName}"></td>
+      <td th:text="${order.address}"></td>
+      <td th:text="${order.postCode}"></td>
+      <td th:text="${order.city}"></td>
+      <td th:text="${order.formattedDate}"></td>
+      <td th:text="${order.discountCode}"></td>
+      <td th:text="${order.totalAmount}"></td>
+      <td th:text="${order.userId}"></td>
       <td>
-        <a class="mbtn"
-           th:href="@{${user.isAdmin} ? '/users/' + ${user.userId} + '/revokeAdmin' : '/users/' + ${user.userId} + '/admin'}">
-          <span th:text="${user.isAdmin} ? 'Revoke admin privileges' : 'Grant admin privileges'"></span>
-        </a>
+        <a class="mbtn" th:href="@{'/order/showOrderedProducts/' + ${order.orderId}}">Show products</a>
       </td>
-
-
     </tr>
     </tbody>
   </table>
-
-  <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
-    <div style="text-align: left;">
-      <a class="mbtn" th:href="@{/items}" style="display: inline-block;">Back</a>
-      <a class="mbtn" th:href="@{/home}" style="display: inline-block;">Go to the shop</a>
-    </div>
-  </div>
-
 </form>
 </body>
 </html>

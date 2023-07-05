@@ -69,7 +69,7 @@
             border: 1px solid #ccc;
         }
 
-        button {
+        .button {
             display: inline-block;
             padding: 10px 20px;
             background-color: #457d47;
@@ -78,9 +78,46 @@
             border-radius: 5px;
             transition: background-color 0.3s;
             cursor: pointer;
+            margin-top: 20px;
         }
 
-        button:hover {
+        .button:hover {
+            background-color: #45a049;
+        }
+
+
+        .button-sort {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #9ce37d;
+            color: #fff;
+            text-decoration: none;
+            font-size: xx-small;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button-sort:hover {
+            background-color: #45a049;
+        }
+
+
+        .button-edit {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: #9ce37d;
+            color: #fff;
+            text-decoration: none;
+            font-size: small;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button-edit:hover {
             background-color: #45a049;
         }
     </style>
@@ -107,10 +144,10 @@
             <input type="number" name="quantity" required>
             <label>Image URL</label>
             <input type="text" name="imgUrl" required>
-            <button type="submit">Add</button>
-            <button onclick="location.href='/items'" type="button">Show all items in the shop</button>
-            <button onclick="location.href='/allUsers'" type="button">Show all users in the shop</button>
+            <button class="button" type="submit">Add</button>
+
         </form>
+        <a class="button" th:href="@{/items}" style="display: inline-block;">Back</a>
     </div>
 </div>
 </body>

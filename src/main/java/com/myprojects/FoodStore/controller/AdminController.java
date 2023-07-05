@@ -1,8 +1,11 @@
 package com.myprojects.FoodStore.controller;
 
+import com.myprojects.FoodStore.model.Order;
 import com.myprojects.FoodStore.model.Product;
 import com.myprojects.FoodStore.repository.ProductRepository;
+import com.myprojects.FoodStore.service.OrderService;
 import com.myprojects.FoodStore.service.ProductService;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,6 +21,9 @@ public class AdminController {
 
     @Autowired
     private ProductService productService;
+
+    @Autowired
+    private OrderService orderService;
 
     public AdminController(ProductRepository productRepository) {
         this.productRepository = productRepository;
@@ -42,6 +48,13 @@ public class AdminController {
         return "adminView/showProducts";
     }
 
+    @GetMapping("/allOrders")
+    public String showOrders(Model model) {
+        List<Order> orders = orderService.getAllOrders();
+        model.addAttribute("orders", orders);
+        return "adminView/allOrdersList";
+    }
+
     @GetMapping("/items/{itemId}/remove")
     public String removeItem(@PathVariable("itemId") Long itemId) {
         try {
@@ -49,7 +62,7 @@ public class AdminController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return "redirect:/showproducts";
+        return "redirect:/items";
     }
 
     @GetMapping("/items/{itemId}/edit")

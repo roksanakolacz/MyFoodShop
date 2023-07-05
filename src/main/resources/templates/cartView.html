@@ -76,12 +76,7 @@
             background-color: #45a049;
         }
 
-        .error-message {
-            background-color: #ff0000;
-            color: #fff;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
+
 
         .summary {
             margin-top: 20px;
@@ -157,6 +152,16 @@
             display: flex;
         }
 
+        .success-message {
+              color: #008000;
+              font-weight: bold;
+              margin-bottom: 10px;
+        }
+         .error-message {
+              color: #ec0707;
+              font-weight: bold;
+              margin-bottom: 10px;
+        }
 
     </style>
 </head>
@@ -204,18 +209,22 @@
             </tr>
         </table>
     </div>
-    <form class="discount-code"action="/order/applyDiscount" method="post">
+    <form class="discount-code" action="/order/applyDiscount" method="post">
         <input type="text" name="discountCode" placeholder="Add discount code" required>
         <div class="discount-button">
             <button type="submit">Apply discount</button>
         </div>
     </form>
-    <div th:if="${discountCodeErrorMessage} != null and ${discountCodeErrorMessage} != ''">
-        <script>
-            alert(discountCodeErrorMessage);
-        </script>
+
+    <div th:if="${discountCodeErrorMessage}">
         <span class="error-message" th:text="${discountCodeErrorMessage}"></span>
     </div>
+
+    <div th:if="${discountCodeMessage}">
+        <span class="success-message" th:text="${discountCodeMessage}"></span>
+    </div>
+
+
     <div class="summary">
         <p><span>To pay </span><span th:text="${@cart.sum}"></span>pln</p>
     </div>

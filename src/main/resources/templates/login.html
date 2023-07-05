@@ -99,6 +99,14 @@
       padding: 20px;
       border-radius: 5px;
     }
+
+    .error-message {
+      border: 1px solid #ff0000;
+      background-color: #ffe0e0;
+      color: #ff0000;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
   </style>
 </head>
 <body>
@@ -115,6 +123,9 @@
   <div class="login-element">
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required />
+  </div>
+  <div th:if="${error}" class="error-message">
+    <p th:text="${error}"></p>
   </div>
   <button type="submit">Log in</button>
 </form>

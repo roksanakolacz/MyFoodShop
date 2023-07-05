@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Entity
@@ -20,7 +21,7 @@ public class Order {
     }
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderId;
     private String firstName;
     private String lastName;
@@ -37,6 +38,9 @@ public class Order {
 
 
     private Integer userId;
+
+    @Transient
+    private String formattedDate;
 
 
 }

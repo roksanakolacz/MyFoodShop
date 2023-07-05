@@ -208,6 +208,11 @@
 </form>
 
 <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+  <div style="text-align: left;">
+    <a class="button" th:href="@{/adminPage}" style="display: inline-block;">Add new product</a>
+    <a class="button" th:href="@{/allUsers}" style="display: inline-block;">Show users</a>
+    <a class="button" th:href="@{/allOrders}" style="display: inline-block;">Show orders</a>
+  </div>
   <table cellspacing="0">
     <tr>
       <th style="width: 30px;">No.</th>
@@ -248,7 +253,7 @@
       </td>
     </tr>
   </table>
-  <a class="button" th:href="@{/adminPage}">Add new product</a>
+
 </div>
 
 </body>
