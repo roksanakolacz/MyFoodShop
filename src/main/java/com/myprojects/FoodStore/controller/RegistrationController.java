@@ -7,7 +7,10 @@ import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import java.util.Arrays;
 
 @Controller
 public class RegistrationController {
@@ -21,9 +24,11 @@ public class RegistrationController {
     }
 
     @PostMapping("/register")
-    public String registerUser(User user, Model model) {
+    public String registerUser(@ModelAttribute("user")User user, Model model) {
 
-        if (!userService.isPasswordValid(user.getPassword())) {
+        char[] password = user.getPasswordChars();
+
+        if (!userService.isPasswordValid(password)) {
             model.addAttribute("error", "Password is too easy");
             return "registration";
         }
@@ -38,10 +43,9 @@ public class RegistrationController {
             return "registration";
         }
 
-        String hashedPassword = BCrypt.hashpw(user.getPassword(), BCrypt.gensalt());
-        user.setPassword(hashedPassword);
 
         userService.registerUser(user);
+
 
         return "redirect:/login";
     }

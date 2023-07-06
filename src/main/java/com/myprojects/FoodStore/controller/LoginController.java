@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class LoginController {
@@ -16,16 +17,13 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
-
-
     @GetMapping("/login")
     public String showLoginForm() {
-
         return "login";
     }
 
     @PostMapping("/login")
-    public String processLogin(String username, String password, HttpSession httpSession, Model model) {
+    public String processLogin(String username, @RequestParam("passwordChars") char[] password, HttpSession httpSession, Model model) {
         if (userService.isPasswordCorrect(username, password)) {
             User loggedInUser = userService.findUserByUserName(username);
             LoginSession session = new LoginSession(loggedInUser.getUserId());
@@ -42,9 +40,4 @@ public class LoginController {
         httpSession.invalidate();
         return "redirect:/home";
     }
-
-
-
-
-
 }

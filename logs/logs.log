@@ -835,3 +835,136 @@
 2023-07-05 21:31:10 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 1188 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
 2023-07-05 21:31:10 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
 2023-07-05 21:31:14 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.405 seconds (process running for 4.947)
+2023-07-06 11:57:48 INFO  c.m.F.Cart:64 - Produkt dodany do koszyka
+2023-07-06 11:57:49 INFO  c.m.F.Cart:64 - Produkt dodany do koszyka
+2023-07-06 11:57:53 INFO  c.m.F.Cart:64 - Produkt dodany do koszyka
+2023-07-06 13:26:37 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 23908 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 13:26:37 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 13:26:42 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.175 seconds (process running for 5.738)
+2023-07-06 13:27:27 INFO  c.m.F.Cart:57 - Password validated successfully: Anna123!
+2023-07-06 13:27:27 INFO  c.m.F.Cart:75 - Email anna@gmail.com can be used by new user - does not exist in db
+2023-07-06 13:27:27 INFO  c.m.F.Cart:90 - Username Anna can be used by new user - does not exist in db
+2023-07-06 13:27:27 INFO  c.m.F.Cart:40 - User successfully registered with name: Anna
+2023-07-06 14:32:39 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 14624 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 14:32:39 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 14:32:43 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.626 seconds (process running for 5.124)
+2023-07-06 15:28:03 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 3260 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 15:28:03 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 15:28:08 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.69 seconds (process running for 5.226)
+2023-07-06 15:32:24 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 24444 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 15:32:24 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 15:32:28 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.651 seconds (process running for 5.164)
+2023-07-06 15:38:42 INFO  c.m.F.Cart:63 - Password validated successfully: [ ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ]
+2023-07-06 15:38:42 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 15:38:42 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 15:47:29 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 21456 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 15:47:29 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 15:47:34 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.718 seconds (process running for 5.215)
+2023-07-06 15:51:10 INFO  c.m.F.Cart:63 - Password validated successfully: [ ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ]
+2023-07-06 15:51:10 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 15:51:10 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 15:59:00 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30264 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 15:59:00 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 15:59:04 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.9 seconds (process running for 5.431)
+2023-07-06 16:00:03 INFO  c.m.F.Cart:63 - Password validated successfully: [ ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ]
+2023-07-06 16:00:03 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:00:03 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:03:35 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 2920 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:03:35 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:03:41 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.899 seconds (process running for 6.52)
+2023-07-06 16:03:59 INFO  c.m.F.Cart:63 - Password validated successfully: [ ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ]
+2023-07-06 16:04:00 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:04:00 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:09:11 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 28788 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:09:11 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:09:15 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.67 seconds (process running for 5.361)
+2023-07-06 16:09:59 INFO  c.m.F.Cart:63 - Password validated successfully: [ ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ]
+2023-07-06 16:11:38 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:11:38 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:11:41 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 16264 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:11:41 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:11:46 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.672 seconds (process running for 5.171)
+2023-07-06 16:12:08 INFO  c.m.F.Cart:63 - Password validated successfully: [K, a, t, a, r, z, y, n, k, a, 1, 2, 3, !]
+2023-07-06 16:12:08 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:12:08 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:12:33 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 1564 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:12:33 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:12:37 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.059 seconds (process running for 5.711)
+2023-07-06 16:19:30 INFO  c.m.F.Cart:63 - Password validated successfully: [K, a, t, a, r, z, y, n, k, a, 1, 2, 3, !]
+2023-07-06 16:19:36 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:19:56 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:23:30 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9516 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:23:30 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:23:35 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.619 seconds (process running for 5.118)
+2023-07-06 16:25:54 INFO  c.m.F.Cart:63 - Password validated successfully: [K, a, t, a, r, z, y, n, k, a, 1, 2, 3, !]
+2023-07-06 16:25:55 INFO  c.m.F.Cart:81 - Email katarzyna@katarzyna.com can be used by new user - does not exist in db
+2023-07-06 16:25:55 INFO  c.m.F.Cart:96 - Username Katarzyna can be used by new user - does not exist in db
+2023-07-06 16:25:55 INFO  c.m.F.Cart:46 - User successfully registered with name: Katarzyna
+2023-07-06 16:26:52 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9048 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:26:52 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:26:56 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.436 seconds (process running for 4.938)
+2023-07-06 16:27:12 INFO  c.m.F.Cart:63 - Password validated successfully: [K, a, t, a, r, z, y, n, k, a, 1, 2, 3, !]
+2023-07-06 16:27:12 INFO  c.m.F.Cart:81 - Email null can be used by new user - does not exist in db
+2023-07-06 16:28:14 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 9032 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:28:14 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:28:18 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.342 seconds (process running for 4.883)
+2023-07-06 16:28:26 INFO  c.m.F.Cart:63 - Password validated successfully: [R, o, k, s, a, n, u, s, i, a, 7, !]
+2023-07-06 16:28:27 INFO  c.m.F.Cart:81 - Email null can be used by new user - does not exist in db
+2023-07-06 16:28:56 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 13936 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:28:56 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:29:00 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.373 seconds (process running for 4.901)
+2023-07-06 16:29:18 INFO  c.m.F.Cart:63 - Password validated successfully: [W, i, o, l, a, 1, 2, 3, !]
+2023-07-06 16:29:18 INFO  c.m.F.Cart:81 - Email wiola@wiola.com can be used by new user - does not exist in db
+2023-07-06 16:29:18 INFO  c.m.F.Cart:96 - Username Wiola can be used by new user - does not exist in db
+2023-07-06 16:29:18 INFO  c.m.F.Cart:46 - User successfully registered with name: Wiola
+2023-07-06 16:33:27 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 780 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:33:27 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:33:31 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.164 seconds (process running for 5.798)
+2023-07-06 16:35:43 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 31068 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:35:43 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:35:47 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.595 seconds (process running for 5.129)
+2023-07-06 16:41:28 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 11296 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:41:28 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:41:32 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.309 seconds (process running for 4.801)
+2023-07-06 16:42:01 INFO  c.m.F.Cart:61 - Password validated successfully: [M, o, n, i, k, a, 1, 2, 3, !]
+2023-07-06 16:42:01 INFO  c.m.F.Cart:79 - Email monika@monika.com can be used by new user - does not exist in db
+2023-07-06 16:42:01 INFO  c.m.F.Cart:94 - Username Monika can be used by new user - does not exist in db
+2023-07-06 16:42:01 INFO  c.m.F.Cart:44 - User successfully registered with name: Monika
+2023-07-06 16:44:02 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 5552 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:44:02 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:44:06 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.611 seconds (process running for 5.196)
+2023-07-06 16:44:29 INFO  c.m.F.Cart:61 - Password validated successfully: [P, i, o, t, r, e, k, @, 1, 2, 3]
+2023-07-06 16:44:29 INFO  c.m.F.Cart:79 - Email piotrek@piotr.com can be used by new user - does not exist in db
+2023-07-06 16:44:29 INFO  c.m.F.Cart:94 - Username Piotr can be used by new user - does not exist in db
+2023-07-06 16:44:57 INFO  c.m.F.Cart:44 - User successfully registered with name: Piotr
+2023-07-06 16:44:59 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30080 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:44:59 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:45:03 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.847 seconds (process running for 5.445)
+2023-07-06 16:45:16 INFO  c.m.F.Cart:61 - Password validated successfully: [P, i, o, t, r, 1, 2, 3, !]
+2023-07-06 16:45:17 INFO  c.m.F.Cart:79 - Email piot@pio.pl can be used by new user - does not exist in db
+2023-07-06 16:45:17 INFO  c.m.F.Cart:94 - Username Pitor can be used by new user - does not exist in db
+2023-07-06 16:45:43 INFO  c.m.F.Cart:44 - User successfully registered with name: Pitor
+2023-07-06 16:45:45 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 3704 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:45:45 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:45:49 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.73 seconds (process running for 5.344)
+2023-07-06 16:46:15 INFO  c.m.F.Cart:61 - Password validated successfully: [P, i, o, t, r, e, k, 1, 2, 3, !]
+2023-07-06 16:53:20 INFO  c.m.F.Cart:79 - Email piotr@piotr.com can be used by new user - does not exist in db
+2023-07-06 16:56:20 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 28880 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:56:20 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:56:25 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 5.392 seconds (process running for 6.024)
+2023-07-06 16:57:06 INFO  c.m.F.Cart:61 - Password validated successfully: [P, i, o, t, r, e, k, 1, 2, 3, !]
+2023-07-06 16:57:08 INFO  c.m.F.Cart:79 - Email piotr@piotr.com can be used by new user - does not exist in db
+2023-07-06 16:57:52 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 30216 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 16:57:52 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 16:57:56 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.866 seconds (process running for 5.558)
+2023-07-06 16:58:22 INFO  c.m.F.Cart:61 - Password validated successfully: [w, i, t, e, K, 1, 2, 3, !]
+2023-07-06 16:58:23 INFO  c.m.F.Cart:79 - Email witek@witek.com can be used by new user - does not exist in db
+2023-07-06 16:58:26 INFO  c.m.F.Cart:94 - Username Witek can be used by new user - does not exist in db
+2023-07-06 17:00:05 INFO  c.m.F.Cart:44 - User successfully registered with name: Witek
+2023-07-06 17:02:58 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 25232 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 17:02:58 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 17:03:02 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.641 seconds (process running for 5.14)
+2023-07-06 17:03:25 INFO  c.m.F.Cart:60 - Password validated successfully: [M, a, r, t, y, n, k, a, 1, 2, 3, !]
+2023-07-06 17:03:25 INFO  c.m.F.Cart:78 - Email martynka@martyna.com can be used by new user - does not exist in db
+2023-07-06 17:03:25 INFO  c.m.F.Cart:93 - Username Martyna can be used by new user - does not exist in db
+2023-07-06 17:03:25 INFO  c.m.F.Cart:43 - User successfully registered with name: Martyna

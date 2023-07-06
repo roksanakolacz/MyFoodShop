@@ -21,6 +21,10 @@ public class User {
     private Integer userId;
     private String username;
     private String password;
+
+    @Transient
+    private char[] passwordChars;
+
     private String email;
 
     private boolean isAdmin;

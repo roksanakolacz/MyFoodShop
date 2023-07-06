@@ -95,14 +95,14 @@
 
 </header>
 <h2>Registration</h2>
-<form action="/register" method="post">
+<form th:object="${user}" action="/register" method="post">
   <div class="login-element">
     <label for="username">User name:</label>
     <input type="text" id="username" name="username" required />
   </div>
   <div class="login-element">
-    <label for="password">Password: </label>
-    <input type="password" id="password" name="password" required />
+    <label for="passwordChars">Password: </label>
+    <input type="password" id="passwordChars" name="passwordChars" required />
   </div>
   <div class="login-element">
     <label for="email">E-mail</label>
@@ -111,7 +111,7 @@
   <button type="submit">Register</button>
 </form>
 
-<!-- Wyświetlanie komunikatu o błędzie -->
+
 <div th:if="${error}" class="error-message">
   <span th:text="${error}"></span>
 </div>

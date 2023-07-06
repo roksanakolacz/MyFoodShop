@@ -4,14 +4,13 @@ import com.myprojects.FoodStore.Cart;
 import com.myprojects.FoodStore.PasswordValidator;
 import com.myprojects.FoodStore.model.User;
 import com.myprojects.FoodStore.repository.UserRepository;
-import jakarta.annotation.PostConstruct;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,11 +29,18 @@ public class UserService {
             logger.error("Trying to add user which is null");
             throw new NullPointerException("User cannot be null");
         }
-        if (user.getUsername() == null || user.getPassword() == null || user.getEmail() == null) {
+        if (user.getUsername() == null || user.getPasswordChars() == null || user.getEmail() == null) {
             logger.error("Trying to add user with not all required field filled");
             throw new NullPointerException("All arguments have to be provided");
         }
+
+        char[] passwordChars = user.getPasswordChars();
+        String passwordString = new String(passwordChars);
+        String hashedPassword = BCrypt.hashpw(passwordString, BCrypt.gensalt());
+        user.setPassword(hashedPassword);
         userRepository.save(user);
+
+
         logger.info("User successfully registered with name: {}", user.getUsername());
     }
 
@@ -47,7 +53,7 @@ public class UserService {
     }
 
 
-    public boolean isPasswordValid(String password){
+    public boolean isPasswordValid(char[] password){
 
         boolean isValid = passwordValidator.isPasswordValid(password);
 
@@ -93,14 +99,23 @@ public class UserService {
     }
 
 
-    public boolean isPasswordCorrect(String username, String password) {
+    public boolean isPasswordCorrect(String username, char[] passwordChars) {
         User user = findUserByUserName(username);
         if (user != null) {
             String hashedPasswordFromDatabase = user.getPassword();
-            return BCrypt.checkpw(password, hashedPasswordFromDatabase);
+            String password = new String(passwordChars);
+            boolean isCorrect = BCrypt.checkpw(password, hashedPasswordFromDatabase);
+
+            Arrays.fill(passwordChars, '\0');
+
+            return isCorrect;
         }
         return false;
     }
+
+
+
+
 
     public User findUserByUserName(String username){
         User user = userRepository.findUserByUsername(username);

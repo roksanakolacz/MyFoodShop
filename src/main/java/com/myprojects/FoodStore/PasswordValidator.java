@@ -2,19 +2,25 @@ package com.myprojects.FoodStore;
 
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 @Component
 public class PasswordValidator {
-    public boolean isPasswordValid(String password){
-        if (password.length()<8){
+
+
+    public boolean isPasswordValid(char[] password) {
+
+        String passwordString = new String(password);
+
+        if (passwordString.length() < 8) {
             return false;
         }
 
 
         boolean hasLowerCase = false;
         boolean hasUpperCase = false;
-        for (char c : password.toCharArray()) {
+        for (char c : passwordString.toCharArray()) {
             if (Character.isLowerCase(c)) {
                 hasLowerCase = true;
             } else if (Character.isUpperCase(c)) {
@@ -25,9 +31,8 @@ public class PasswordValidator {
             return false;
         }
 
-
         boolean hasDigit = false;
-        for (char c : password.toCharArray()) {
+        for (char c : passwordString.toCharArray()) {
             if (Character.isDigit(c)) {
                 hasDigit = true;
                 break;
@@ -37,14 +42,15 @@ public class PasswordValidator {
             return false;
         }
 
-
         Pattern pattern = Pattern.compile("[^a-zA-Z0-9]");
-        if (!pattern.matcher(password).find()) {
+        if (!pattern.matcher(passwordString).find()) {
             return false;
         }
 
+        passwordString = null;
 
         return true;
-
     }
+
+
 }
