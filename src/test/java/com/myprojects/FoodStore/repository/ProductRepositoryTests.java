@@ -6,11 +6,16 @@ import com.myprojects.FoodStore.repository.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
+import java.util.Collections;
 import java.util.List;
+
+import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.when;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
@@ -19,6 +24,8 @@ public class ProductRepositoryTests {
     @Autowired
     private ProductRepository productRepository;
 
+    @Mock
+    private ProductRepository mockProductRepository;
 
     @Test
     public void findProductByKeyword_productsMatchToLowercaseKeyword_returnListOfProducts(){
@@ -104,25 +111,24 @@ public class ProductRepositoryTests {
     }
 
     @Test
-    public void findProductsByCategory_categoryExistsProductNot_returnEmptyList(){
+    public void findProductsByCategory_categoryExistsProductNot_returnEmptyList() {
+        Integer category = 7;
 
-        Integer category = 1;
 
         List<Product> actualProductList = productRepository.findProductsByCategory(category);
 
         Assertions.assertTrue(actualProductList.isEmpty());
-
     }
 
     @Test
-    public void findProductsByCategory_categoryDoesNotExists_returnEmptyList(){
-
+    public void findProductsByCategory_categoryDoesNotExists_returnEmptyList() {
         Integer category = 100;
+
+        when(mockProductRepository.findProductsByCategory(category)).thenReturn(Collections.emptyList());
 
         List<Product> actualProductList = productRepository.findProductsByCategory(category);
 
         Assertions.assertTrue(actualProductList.isEmpty());
-
     }
 
     @Test

@@ -18,7 +18,10 @@ public class UserRepositoryTests {
     @Test
     public void findUserByUsername_usernameExists_returnUser(){
 
-        User user = new User("Angelina", "Angelina123", "angelina.angelina@gmail.com");
+
+        char[] password = {'A', 'n', 'g', 'e', 'l', 'i', 'n', 'a', '1', '2', '3'};
+
+        User user = new User("Angelina", password, "angelina.angelina@gmail.com");
         userRepository.save(user);
 
         User userFound = userRepository.findUserByUsername("Angelina");
@@ -29,7 +32,10 @@ public class UserRepositoryTests {
     @Test
     public void findUserByUsername_usernameDifferentLetterSize_returnNull(){
 
-        User user = new User("Angelina", "Angelina123", "angelina.angelina@gmail.com");
+        char[] password = {'A', 'n', 'g', 'e', 'l', 'i', 'n', 'a', '1', '2', '3'};
+
+
+        User user = new User("Angelina", password, "angelina.angelina@gmail.com");
         userRepository.save(user);
 
         User userFound = userRepository.findUserByUsername("angelina");
@@ -40,8 +46,10 @@ public class UserRepositoryTests {
     @Test
     public void findUserByUsername_usernameDoesNotExist_returnNull(){
 
+        char[] password = {'A', 'n', 'g', 'e', 'l', 'i', 'n', 'a', '1', '2', '3'};
+
         String username = "Angelina";
-        User user = new User(username, "Angelina123", "angelina.angelina@gmail.com");
+        User user = new User(username, password  , "angelina.angelina@gmail.com");
         userRepository.save(user);
 
        //deleting if exists

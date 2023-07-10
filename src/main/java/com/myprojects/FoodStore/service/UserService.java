@@ -17,11 +17,12 @@ import java.util.Optional;
 @Service
 public class UserService {
 
-    private static final Logger logger = LogManager.getLogger(Cart.class);
+    private static final Logger logger = LogManager.getLogger(UserService.class);
     @Autowired
     private UserRepository userRepository;
     @Autowired
     private PasswordValidator passwordValidator;
+
 
 
     public void registerUser(User user) {
@@ -32,6 +33,11 @@ public class UserService {
         if (user.getUsername() == null || user.getPasswordChars() == null || user.getEmail() == null) {
             logger.error("Trying to add user with not all required field filled");
             throw new NullPointerException("All arguments have to be provided");
+        }
+
+        if (user.getUsername().isEmpty() || user.getPasswordChars().length == 0 || user.getEmail().isEmpty()) {
+            logger.error("Trying to add user with not all required field filled");
+            throw new IllegalArgumentException("All arguments have to be provided");
         }
 
         char[] passwordChars = user.getPasswordChars();
@@ -101,37 +107,47 @@ public class UserService {
 
     public boolean isPasswordCorrect(String username, char[] passwordChars) {
         User user = findUserByUserName(username);
-        if (user != null) {
+        if (user != null && passwordChars != null) {
             String hashedPasswordFromDatabase = user.getPassword();
             String password = new String(passwordChars);
+
             boolean isCorrect = BCrypt.checkpw(password, hashedPasswordFromDatabase);
 
             Arrays.fill(passwordChars, '\0');
 
             return isCorrect;
         }
+        logger.warn("Wrong password entered for user: {}", username);
         return false;
     }
 
 
 
 
-
     public User findUserByUserName(String username){
-        User user = userRepository.findUserByUsername(username);
-        if (user == null) {
-            logger.warn("User not found for username: {}", username);
+        if (username == null) {
+            logger.error("Username was null");
+            throw new IllegalArgumentException("Username must not be null");
         }
+        User user = userRepository.findUserByUsername(username);
         return user;
     }
 
     public User findUserByUserId(Integer userId){
+        if (userId == null) {
+            logger.error("UserId was null");
+            throw new IllegalArgumentException("userId must not be null");
+        }
         Optional<User> user = userRepository.findById(userId);
         return user.orElse(null);
 
     }
 
     public void grantAdminPrivileges(Integer userId) {
+        if (userId==null){
+            logger.error("UserId was null");
+            throw new IllegalArgumentException("UserID cannot be null");
+        }
         Optional<User> user = userRepository.findById(userId);
         user.ifPresent(value -> {
             value.setAdmin(true);
@@ -141,6 +157,10 @@ public class UserService {
     }
 
     public void revokeAdminPrivileges(Integer userId) {
+        if (userId==null){
+            logger.error("UserId was null");
+            throw new IllegalArgumentException("UserID cannot be null");
+        }
         Optional<User> user = userRepository.findById(userId);
         user.ifPresent(value -> {
             value.setAdmin(false);

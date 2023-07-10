@@ -30,6 +30,7 @@ public class DiscountCodeService{
 
 
     public void addDiscountCode(DiscountCode discountCode){
+
         discountCodesRepository.save(discountCode);
     }
 

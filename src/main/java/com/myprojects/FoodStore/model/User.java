@@ -34,9 +34,9 @@ public class User {
     private List<Order> orderList;
 
 
-    public User(String username, String password, String email) {
+    public User(String username, char[] passwordChars, String email) {
         this.username = username;
-        this.password = password;
+        this.passwordChars = passwordChars;
         this.email = email;
         this.isAdmin = false;
     }

@@ -968,3 +968,153 @@
 2023-07-06 17:03:25 INFO  c.m.F.Cart:78 - Email martynka@martyna.com can be used by new user - does not exist in db
 2023-07-06 17:03:25 INFO  c.m.F.Cart:93 - Username Martyna can be used by new user - does not exist in db
 2023-07-06 17:03:25 INFO  c.m.F.Cart:43 - User successfully registered with name: Martyna
+2023-07-06 17:05:05 INFO  c.m.F.FoodStoreApplication:51 - Starting FoodStoreApplication using Java 17.0.6 with PID 25180 (C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore\target\classes started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-06 17:05:05 INFO  c.m.F.FoodStoreApplication:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-06 17:05:09 INFO  c.m.F.FoodStoreApplication:57 - Started FoodStoreApplication in 4.389 seconds (process running for 4.878)
+2023-07-06 17:05:26 INFO  c.m.F.Cart:61 - Password validated successfully: [W, e, r, a, 1, 2, 3, !]
+2023-07-06 17:05:26 INFO  c.m.F.Cart:79 - Email weronika@wera.pl can be used by new user - does not exist in db
+2023-07-06 17:05:26 INFO  c.m.F.Cart:94 - Username Weronika can be used by new user - does not exist in db
+2023-07-06 17:05:26 INFO  c.m.F.Cart:44 - User successfully registered with name: Weronika
+2023-07-07 13:50:36 INFO  c.m.F.Cart:44 - User successfully registered with name: Johny
+2023-07-07 13:50:45 INFO  c.m.F.Cart:79 - Email null can be used by new user - does not exist in db
+2023-07-07 13:50:45 INFO  c.m.F.Cart:44 - User successfully registered with name: Johny
+2023-07-07 13:50:45 INFO  c.m.F.Cart:94 - Username Jerry can be used by new user - does not exist in db
+2023-07-07 13:50:45 INFO  c.m.F.Cart:94 - Username  can be used by new user - does not exist in db
+2023-07-07 13:50:45 INFO  c.m.F.Cart:44 - User successfully registered with name: John
+2023-07-07 13:50:46 INFO  c.m.F.Cart:94 - Username null can be used by new user - does not exist in db
+2023-07-07 13:50:46 INFO  c.m.F.Cart:79 - Email  can be used by new user - does not exist in db
+2023-07-07 13:50:46 INFO  c.m.F.Cart:61 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-07 13:50:46 INFO  c.m.F.Cart:79 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:79 - Email null can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:44 - User successfully registered with name: Johny
+2023-07-08 09:05:42 INFO  c.m.F.Cart:94 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:94 - Username  can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:44 - User successfully registered with name: John
+2023-07-08 09:05:42 INFO  c.m.F.Cart:94 - Username null can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:79 - Email  can be used by new user - does not exist in db
+2023-07-08 09:05:42 INFO  c.m.F.Cart:61 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:05:42 INFO  c.m.F.Cart:79 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:80 - Email null can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:45 - User successfully registered with name: Johny
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:95 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:95 - Username  can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:45 - User successfully registered with name: John
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:95 - Username null can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:80 - Email  can be used by new user - does not exist in db
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:62 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:17:40 INFO  c.m.F.s.UserService:80 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:20:15 INFO  c.m.F.s.UserService:45 - User successfully registered with name: John
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:21:52 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:43:40 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 09:43:40 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 09:43:40 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:43:40 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 09:43:40 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 09:43:41 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 09:43:41 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:43:41 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:45:45 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 09:45:45 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 09:45:45 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:45:45 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 09:45:45 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 09:45:46 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 09:45:46 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:45:46 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 09:53:16 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 09:53:16 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 09:53:16 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 09:53:16 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 09:53:16 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 09:53:17 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 09:53:17 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 09:53:17 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 10:04:09 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 10:05:39 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 10:09:50 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-08 10:09:50 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-08 10:09:50 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-08 10:09:50 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-08 10:09:50 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-08 10:09:51 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-08 10:09:51 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-08 10:09:51 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-08 10:12:13 INFO  c.m.F.r.OrderItemRepositoryTests:51 - Starting OrderItemRepositoryTests using Java 17.0.6 with PID 268 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:12:13 INFO  c.m.F.r.OrderItemRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:12:16 INFO  c.m.F.r.OrderItemRepositoryTests:57 - Started OrderItemRepositoryTests in 3.513 seconds (process running for 4.782)
+2023-07-08 10:12:25 INFO  c.m.F.r.OrderRepositoryTests:51 - Starting OrderRepositoryTests using Java 17.0.6 with PID 9384 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:12:25 INFO  c.m.F.r.OrderRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:12:28 INFO  c.m.F.r.OrderRepositoryTests:57 - Started OrderRepositoryTests in 3.328 seconds (process running for 4.515)
+2023-07-08 10:12:36 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 5812 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:12:36 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:12:39 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 3.322 seconds (process running for 4.485)
+2023-07-08 10:16:25 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 20836 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:16:25 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:16:28 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 3.355 seconds (process running for 4.616)
+2023-07-08 10:17:11 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 31156 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:17:11 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:17:14 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.949 seconds (process running for 4.64)
+2023-07-08 10:18:06 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 16640 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:18:06 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:18:09 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.967 seconds (process running for 4.647)
+2023-07-08 10:18:19 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 18340 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:18:19 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:18:22 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.843 seconds (process running for 4.599)
+2023-07-08 10:18:46 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 25044 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:18:46 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:18:49 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 3.187 seconds (process running for 5.015)
+2023-07-08 10:20:46 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 11808 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:20:46 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:20:49 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.893 seconds (process running for 4.545)
+2023-07-08 10:22:09 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 12268 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:22:09 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:22:12 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.945 seconds (process running for 4.709)
+2023-07-08 10:23:26 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 24052 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:23:26 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:23:28 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.948 seconds (process running for 4.682)
+2023-07-08 10:25:04 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 23352 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:25:04 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:25:07 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.789 seconds (process running for 4.566)
+2023-07-08 10:25:40 INFO  c.m.F.r.ProductRepositoryTests:51 - Starting ProductRepositoryTests using Java 17.0.6 with PID 30008 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:25:40 INFO  c.m.F.r.ProductRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:25:43 INFO  c.m.F.r.ProductRepositoryTests:57 - Started ProductRepositoryTests in 2.813 seconds (process running for 4.532)
+2023-07-08 10:26:04 INFO  c.m.F.r.UserRepositoryTests:51 - Starting UserRepositoryTests using Java 17.0.6 with PID 24028 (started by roksa in C:\Users\roksa\OneDrive\Desktop\Programowanie\FoodStore\FoodStore)
+2023-07-08 10:26:04 INFO  c.m.F.r.UserRepositoryTests:632 - No active profile set, falling back to 1 default profile: "default"
+2023-07-08 10:26:07 INFO  c.m.F.r.UserRepositoryTests:57 - Started UserRepositoryTests in 3.266 seconds (process running for 4.482)
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:85 - Email null can be used by new user - does not exist in db
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:50 - User successfully registered with name: Johny
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:100 - Username Jerry can be used by new user - does not exist in db
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:100 - Username  can be used by new user - does not exist in db
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:100 - Username null can be used by new user - does not exist in db
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:85 - Email  can be used by new user - does not exist in db
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:67 - Password validated successfully: [S, t, r, o, n, g, P, a, s, s, w, o, r, d, !, 1, 2, 3]
+2023-07-10 12:24:57 INFO  c.m.F.s.UserService:85 - Email maggie@happy.com can be used by new user - does not exist in db
+2023-07-10 13:08:30 INFO  c.m.F.s.UserService:152 - Admin privileges granted for user with id 1
+2023-07-10 13:25:52 INFO  c.m.F.s.UserService:152 - Admin privileges granted for user with id 1
+2023-07-10 13:29:43 INFO  c.m.F.s.UserService:152 - Admin privileges granted for user with id -1
+2023-07-10 13:31:56 INFO  c.m.F.s.UserService:152 - Admin privileges granted for user with id -1
+2023-07-10 13:33:07 INFO  c.m.F.s.UserService:156 - Admin privileges granted for user with id -1
+2023-07-10 13:47:00 INFO  c.m.F.s.UserService:165 - Admin privileges revoked for user with id 1
+2023-07-10 13:47:07 INFO  c.m.F.s.UserService:165 - Admin privileges revoked for user with id 1
+2023-07-10 13:47:11 INFO  c.m.F.s.UserService:165 - Admin privileges revoked for user with id null

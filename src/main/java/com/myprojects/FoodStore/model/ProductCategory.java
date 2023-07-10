@@ -10,7 +10,9 @@ public enum ProductCategory {
     MEET(3),
     VEGETABLES(4),
     SWEETS(5),
-    DRINKS(6);
+    DRINKS(6),
+    ACCESSORIES(7);
+
 
     private int value;
     private static Map map = new HashMap<>();
