@@ -1,6 +1,7 @@
 # MyFoodShop
-Welcome to my online shop project! As a beginner programmer, I undertook this project to gain hands-on experience and learn various technologies 
-that are highly valued in the industry.
+Welcome to my online shop project! 
+
+As a beginner programmer, I undertook this project to gain hands-on experience and learn various technologies that are highly valued in the industry.
 This project is an online shop web application aimed at providing users with a convenient and seamless shopping experience. 
 It offers a range of products for purchase and includes functionalities for both users and administrators.
 
@@ -15,27 +16,27 @@ It offers a range of products for purchase and includes functionalities for both
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 
 
 ## General Information
 The MyFoodShop project is aimed at addressing the challenges faced by a beginner programmer while developing an online shop web application. 
-It involves various aspects such as designing and implementing a database structure, 
-managing user authentication and authorization, implementing a smooth user interface, integrating different technologies 
-and frameworks, and ensuring efficient handling of product inventory, orders, and stock update.
+It involves various aspects such as designing and implementing a database structure, managing user authentication and authorization, implementing a smooth user interface, integrating different technologies and frameworks, and ensuring efficient handling of product inventory, orders, and stock update.
 
+
+ 
 ## Technologies Used
 The project utilizes the following technologies and frameworks:
 
-Programming Languages: Java, HTML, CSS
-Backend Framework: Spring Boot, Hibernate
-Database Management: MySQL
-Frontend Frameworks: Thymeleaf
-REST API
-Maven
-Version Control: Git
-Deployment: Docker
-Testing: JUnit, Mockito
+- Programming Languages: Java, HTML, CSS.
+- Backend Framework: Spring Boot, Hibernate.
+- Database Management: MySQL.
+- Frontend Frameworks: Thymeleaf.
+- REST API.
+- Maven.
+- Version Control: Git.
+- Deployment: Docker.
+- Testing: JUnit, Mockito.
 
 ## Features
 User panel:
@@ -44,6 +45,7 @@ User panel:
 - Order history view for customers.
 - Discount code application during checkout.
 - Stock management: updating product availability.
+  
 Admin panel for managing the shop:
 - Adding, editing, and deleting products.
 - Comprehensive view of order history.
@@ -100,14 +102,15 @@ To do:
 
 ## Acknowledgements
 
-- This project was inspired by the following tutorial: https://www.youtube.com/watch?v=XAIUMhDEt20
+- This project was inspired by the following tutorial: https://www.youtube.com/watch?v=XAIUMhDEt20.
 
 
 
 ## Contact
 Created by Roksana Kolacz: 
-www.linkedin.com/in/roksana-kolacz
-www.gitlab.com/rkolacz
+  * www.linkedin.com/in/roksana-kolacz.
+  * www.gitlab.com/rkolacz.
+    
 Feel free to contact me!
 
 
