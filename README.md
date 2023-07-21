@@ -108,8 +108,8 @@ To do:
 
 ## Contact
 Created by Roksana Kolacz: 
-  * www.linkedin.com/in/roksana-kolacz.
-  * www.gitlab.com/rkolacz.
+  * linkedin.com/in/roksana-kolacz.
+  * github.com/roksanakolacz.
     
 Feel free to contact me!
 
